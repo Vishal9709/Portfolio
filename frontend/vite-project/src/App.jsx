@@ -100,7 +100,7 @@ export default function App() {
 
     try {
       const baseUrl =
-        import.meta.env.VITE_API_URL || "http://localhost:8000";
+        import.meta.env.VITE_API_URL || "https://vishal-portfolio-ai.onrender.com";
 
       const response = await fetch(`${baseUrl}/api/chat`, {
         method: "POST",
